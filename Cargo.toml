@@ -1,0 +1,11 @@
+[package]
+name = "getips"
+version = "0.1.0"
+authors = ["J. Cliff Dyer <jcd@sdf.org>"]
+description = "Returns a list of ec2 servers in the specified environment"
+edition = "2018"
+
+[dependencies]
+clap = "*"
+rusoto_core = "0.35"
+rusoto_ec2 = "0.35"
